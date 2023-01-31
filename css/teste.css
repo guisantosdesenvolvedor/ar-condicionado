@@ -214,3 +214,39 @@ a{
     padding-left: 200px;
     padding-top: 200px;
 }
+
+.alinha_meio{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_abaixo_produtos{
+    padding: 0px 46px 0px 0px;
+}
+
+.arp{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arp2 li{
+    padding: 20px;
+}
+
+.prud_img{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.prud_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.prud_img div{
+    padding: 20px;
+}

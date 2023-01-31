@@ -10,7 +10,7 @@
 
     <title>Document</title>
 </head>
-<body>
+<body ng-app="">
     <nav id="navbar">
         <div id="navbar-container">
                  <h1>AR CONDICIONADO</h1>
@@ -151,6 +151,69 @@
     </div>
 </nav>
 
+<nav id="produtos">
+    <div >
+        <div class="alinha_meio">
+            <h1>Produtos</h1>
+        </div>
+        <div class="img_abaixo_produtos">
+            <div class="alinha_meio">
+                <ul>
+                    <li>
+                        <img src="img/linhapequena.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="arp">
+        <div class="arp2">
+            <ul>
+                <form class="pulas">
+                    <input type="radio" ng-model="opcao" value="ar-c">AR CONDICIONADO
+                    <input type="radio" ng-model="opcao" value="ar-c-i">AR CONDICIONADO INVERTER
+                    <input type="radio" ng-model="opcao" value="mult"> MULTI SPLIT
+                    <input type="radio" ng-model="opcao" value="ener"> ENERGIA SOLAR
+            
+                </form>
+                <div ng-switch="opcao">
+                    <div ng-switch-when="ar-c">
+                        <img src="img/arp1.webp" alt="">
+                        <img src="img/arp1.webp" alt="">
+                        <img src="img/arp1.webp" alt="">
+                        <img src="img/arp1.webp" alt="">
+                        <img src="img/arp1.webp" alt="">
+                    </div>
+            
+                    <div ng-switch-when="ar-c-i">
+                        <img src="img/arp2.webp" alt="">
+                        <img src="img/arp2.webp" alt="">
+                        <img src="img/arp2.webp" alt="">
+                        <img src="img/arp2.webp" alt="">
+                        <img src="img/arp2.webp" alt="">
+                    </div>
+            
+                    <div ng-switch-when="mult">
+                        <img src="img/arp3.webp" alt="">
+                        <img src="img/arp3.webp" alt="">
+                        <img src="img/arp3.webp" alt="">
+                        <img src="img/arp3.webp" alt="">
+                        <img src="img/arp3.webp" alt="">
+                    </div>
+
+                    <div ng-switch-when="ener">
+                        <img src="img/arp4.webp" alt="">
+                        <img src="img/arp4.webp" alt="">
+                        <img src="img/arp4.webp" alt="">
+                        <img src="img/arp4.webp" alt="">
+                        <img src="img/arp4.webp" alt="">
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+    </div>
+</nav>
 
 </body>
 </html>

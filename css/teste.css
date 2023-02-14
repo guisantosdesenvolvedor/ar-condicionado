@@ -165,7 +165,7 @@ a{
 }
 
 .imagem_servicos_linha p{
-    padding: 50px;
+    padding: 100px 0px 0px 0px;
     font-size: 15px;
     align-items: center;
     text-align: center;
@@ -178,11 +178,11 @@ a{
 
 }
 
-.fundocinza{
+.fundo{
     display: grid;
     grid-template-columns: 1fr 6fr 4fr ;
     grid-template-rows: 70vh;
-    background: grey;
+    background: rgb(212, 212, 212);
 }
 
 .container_texto{
@@ -200,19 +200,17 @@ a{
     flex-flow: row nowrap;
     align-items: center;
     margin-top: 15px;
+    padding: 0px 0px 0px 325px;
 }
 
-.img_abaixo{
-    justify-self: center;
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 15px;    
-}
 
 .logogrande{
     padding-left: 200px;
     padding-top: 200px;
+}
+
+.ajustes_text_sobre{
+    font-size: 30px;
 }
 
 .alinha_meio{
@@ -235,22 +233,114 @@ a{
     padding: 20px;
 }
 
-.prud_img{
-    margin-left: 5%;
-    margin-right: 5%;
+
+.ajuste_img img{
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 20%;
+    width: 400px;
+    height: 300px;
+}
+
+
+.linha{
+    display: flex;
+    justify-content: space-around;
+}
+
+.w50{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.w75{
+    width: 75%;
+    margin: 20px auto;
+}
+
+.w100{
+    width: 90%;
+    margin: 50px ;
+}
+
+
+.contato{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 
-.prud_img img{
-    height: 100%;
-    width: 100%;
+
+.ajuste_img{
+    max-width: 100%;
+    padding-left: 100px;
+    width: 800px;
+    height: 500px;
 }
 
-.prud_img div{
-    padding: 20px;
+.ajustecontato{
+    display: flex;
+    justify-content: space-between;
 }
 
-.pulas{
-    padding: 20px;
+.ajustecontato h5{
+    font-size: 1.5rem;
+}
+
+.contatoaling{
+    text-align: center;
+    margin-top: 15px;
+    padding-right: 80px;
+}
+
+.ajustecontatos1 h4{
+    font-size: 1.5rem;
+    justify-content: left;
+    text-align: left;
+}
+
+.inputfield input{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0px 5px;
+    border-bottom: 1px solid black;
+}
+.inputfield input:focus{
+    outline: none;
+}
+
+.linhait{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ajustemens{
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    padding: 50px 0px 0px 0px;
+}
+
+.botao{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.botao button{
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid gray;
+}
+.icons img{
+    height: 80px;
+    width: 80px;
+}
+
+.icons{
+    padding-left: 500px;
+}
+
+.contatocontainer img{
+    padding: 40px 0px 0px 30px;
 }

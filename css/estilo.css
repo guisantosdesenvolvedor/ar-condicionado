@@ -350,3 +350,18 @@ a{
 .contatocontainer img{
     padding: 40px 0px 0px 30px;
 }
+
+.coll{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.rowsl{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.nm{
+    display: flex;
+    justify-content: space-around;
+}

@@ -11,15 +11,26 @@
         <div id="navbar-container">
                  <h1>AR CONDICIONADO</h1>
             <ul id="navbar-items">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#empresa">EMPRESA</a></li>
-                <li><a href="#servicos">SERVIÇOS</a></li>
-                <li><a href="#portifolio">PORTIFÓLIO</a></li>
-                <li><a href="#contato">CONTATO</a></li>
+                <li><a href="index.php#home">HOME</a></li>
+                <li><a href="index.php#empresa">EMPRESA</a></li>
+                <li><a href="index.php#servicos">SERVIÇOS</a></li>
+                <li><a href="index.php#portifolio">PORTIFÓLIO</a></li>
+                <li><a href="index.php#contato">CONTATO</a></li>
             </ul>
         </div>
     </nav>
-
-    
+<div>
+    <div class="coll">
+                <div>
+                    <img src="img/visao.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/valores.jpg" alt="">
+                </div>
+    </div>
+        <div class="lrowsl">
+                
+        </div>
+</div>
 </body>
 </html>

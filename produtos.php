@@ -1,3 +1,6 @@
+<?php 
+include 'conn/conecta.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
 </head>
 <body  ng-app="meuApp" ng-controller="meuController">
 <nav id="produtos">
@@ -41,73 +45,73 @@
 
         <div class="linha w100" ng-show="arcondicionado">
             <div class="ajuste_img">
-             <a href=""><img src="img/arp1.webp" alt=""></a>
+             <a href="informacao.php?id=1"><img src="img/arp1.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/arp2.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/arp2.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/arp3.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/arp3.webp" alt=""></a>
             </div>
             <div class="ajuste_img"> 
-             <a href=""><img src="img/arp4.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/arp4.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/arp5.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/arp5.webp" alt=""></a>
             </div>
         </div>
 
         <div class="linha w100" ng-show="inverter">
             <div class="ajuste_img">
-             <a href=""><img src="img/arpi1.jpg" alt=""></a>
+             <a href="informacao.php"><img src="img/arpi1.jpg" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/arpi2.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/arpi2.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/arpi3.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/arpi3.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/arpi4.jpg" alt=""></a>
+             <a href="informacao.php"><img src="img/arpi4.jpg" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/arpi5.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/arpi5.webp" alt=""></a>
             </div>
         </div>
 
         <div class="linha w100" ng-show="multisplit">
             <div class="ajuste_img">
-            <a href=""><img src="img/mul1.webp" alt=""></a>
+            <a href="informacao.php"><img src="img/mul1.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/mul2.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/mul2.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href=""><img src="img/mul3.webp" alt=""></a>
+             <a href="informacao.php"><img src="img/mul3.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-            <a href=""><img src="img/mul4.png" alt=""></a>
+            <a href="informacao.php"><img src="img/mul4.png" alt=""></a>
             </div>
             <div class="ajuste_img">
-            <a href=""><img src="img/mul5.png" alt=""></a>
+            <a href="informacao.php"><img src="img/mul5.png" alt=""></a>
             </div>
         </div>
 
         <div class="linha w100" ng-show="energiasolar">
             <div class="ajuste_img">
-              <a href=""><img src="img/pl1.webp" alt=""></a>  
+              <a href="informacao.php"><img src="img/pl1.webp" alt=""></a>  
             </div>
             <div class="ajuste_img">
-              <a href=""> <img src="img/pl2.jpg" alt=""></a> 
+              <a href="informacao.php"> <img src="img/pl2.jpg" alt=""></a> 
             </div>
             <div class="ajuste_img">
-              <a href="">  <img src="img/pl3.jpg" alt=""></a>
+              <a href="informacao.php">  <img src="img/pl3.jpg" alt=""></a>
             </div>
             <div class="ajuste_img">
-               <a href=""> <img src="img/pl4.jpg" alt=""></a>
+               <a href="informacao.php"> <img src="img/pl4.jpg" alt=""></a>
             </div>
             <div class="ajuste_img">
-               <a href=""> <img src="img/pl5.png" alt=""></a>
+               <a href="informacao.php"> <img src="img/pl5.png" alt=""></a>
             </div>
         </div>
     </div>

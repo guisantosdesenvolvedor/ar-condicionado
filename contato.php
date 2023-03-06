@@ -9,6 +9,7 @@
         <img src="img/ar2.webp" alt="" class="ajuste_ig">
     </div>
     <div class="contatoaling" id="contato">
+    <br><br><br>
         <h1>CONTATO</h1>
         <img src="img/linhapequena.png" alt="">
         <div class="ajustecontato">

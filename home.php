@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/estilo.css">
+    
 </head>
 <body>
 <nav class="navcentral" id="home">
+    <div class="ajt">
         <div class="imagem1">
             <ul>
                 <li>
@@ -22,6 +24,7 @@
                 <img src="img/linhapequena.png" alt="" class="linhapq">
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 </body>
 </html>

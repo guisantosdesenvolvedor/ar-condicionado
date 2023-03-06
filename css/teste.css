@@ -1,346 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
-*{
-    box-sizing: border-box;
-}
-
-ul {
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-li{
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-body{
-    margin: 0;
-    font-family: 'Noto Serif', serif;
-}
-
-body h1{
-    font-family: 'Unbounded', cursive;
-}
-
-ul li {
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-/*################### COMEÇO DO HEADER #######################*/
-#navbar {
-    width: 100%;
-    background: rgb(251, 253, 255);
-    color: rgb(0, 0, 0);
-    height: 80px;
-}
-
-#navbar-container {
-    width: 80%;
-    height: 100%;
-    margin: auto;
+.container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-#navbar-items {
-    display: flex;
-    list-style: none;
-    text-transform: uppercase;
-}
-
-#navbar-items li :last-child{
-    padding: 15px;
-}
-
-/*################### FIM DO HEADER #######################*/
-/*################### FIM DO CENTRAL #######################*/
-.navcentral{
-    margin-left: 10px;
-    margin-right:1%;
-    display: grid;
-    grid-template-columns: 4fr 5fr ;
-    grid-template-rows: 55vh;
-}
-
-.imagem1 {
-    position: relative;
-    display: flex;
-}
-
-.imagem1 a{
-    display: flex;
-}
-
-.texto_meio{
-    margin: 5px;
-    padding: 139px;
-}
-
-.texto_meio p{
-    text-align: center;
-    font-size: 40px;
-}
-
-.linhapq{
-    justify-content: center;
-    padding: 0px 110px;
-}
-/*################### FIM DO CENTRAL #######################*/
-/*################### COMEÇO FUNDO AMARELO #######################*/
-.fundo_conteudo{
-    background: rgb(209, 209, 208);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 25vh 10vh 10vh 10vh;
-}
-
-.textos_desc{
-    margin-left: 15px;
-    padding-bottom: 180px;
-}
-
-.desc{
-    padding: 70px;
-    justify-content: space-around;
-    justify-self: center;
-}
-/*################### FIM FUNDO AMARELO #######################*/
-/*################### COMEÇO AREA DE SERVIÇOS #######################*/
-.area_servicos{
-    display: grid;
-    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 4fr 1fr ;
-    grid-template-rows: 8vh 15vh 25vh 25vh;
-}
-
-.paragrafo{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    text-align: center;
-}
-
-.img_linha{
-    justify-self: center;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 15px;    
-}
-
-.imagem_servicos_bloco{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.imagem_servicos_bloco a{
-    display: flex;
-    justify-items: center;
-}
-
-.imagem_servicos_bloco p{
-    font-size: 15px;
-    text-align: center;
-}
-
-.imagem_servicos_linha{
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-
-.imagem_servicos_linha a{
-    display: flex;
-}
-
-.imagem_servicos_linha p{
-    padding: 100px 0px 0px 0px;
-    font-size: 15px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.imagem_servicos_linha a img{
-    height: 100%;
-    width: 100%;
-    border-radius: 30%;
-
-}
-
-.fundo{
-    display: grid;
-    grid-template-columns: 1fr 6fr 4fr ;
-    grid-template-rows: 70vh;
-    background: rgb(212, 212, 212);
-}
-
-.container_texto{
-    grid-column-start: 2;   
-}
-
-.sobre_nos_fundocinza{
-    text-align: center;
-    margin-top: 15px;
-}
-
-.img_abaixo{ 
-    display: flex;
-    position: relative;
-    flex-flow: row nowrap;
-    align-items: center;
-    margin-top: 15px;
-    padding: 0px 0px 0px 325px;
-}
-
-
-.logogrande{
-    padding-left: 200px;
-    padding-top: 200px;
-}
-
-.ajustes_text_sobre{
-    font-size: 30px;
-}
-
-.alinha_meio{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
-
-.img_abaixo_produtos{
-    padding: 0px 46px 0px 0px;
-}
-
-.arp{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
-
-.arp2 li{
-    padding: 20px;
-}
-
-
-.ajuste_img img{
-    max-width: 100%;
-    padding: 20px;
-    border-radius: 20%;
-    width: 400px;
-    height: 300px;
-}
-
-
-.linha{
-    display: flex;
-    justify-content: space-around;
-}
-
-.w50{
+    margin: 20px;
+  }
+  
+  .product-image {
     width: 50%;
-    margin: 20px auto;
-}
-
-.w75{
-    width: 75%;
-    margin: 20px auto;
-}
-
-.w100{
-    width: 90%;
-    margin: 50px ;
-}
-
-
-.contato{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-}
-
-
-.ajuste_img{
-    max-width: 100%;
-    padding-left: 100px;
-    width: 800px;
-    height: 500px;
-}
-
-.ajustecontato{
-    display: flex;
-    justify-content: space-between;
-}
-
-.ajustecontato h5{
-    font-size: 1.5rem;
-}
-
-.contatoaling{
-    text-align: center;
-    margin-top: 15px;
-    padding-right: 80px;
-}
-
-.ajustecontatos1 h4{
-    font-size: 1.5rem;
-    justify-content: left;
-    text-align: left;
-}
-
-.inputfield input{
-    border: none;
-    background-color: transparent;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details h2 {
     font-size: 18px;
-    padding: 0px 5px;
-    border-bottom: 1px solid black;
-}
-.inputfield input:focus{
-    outline: none;
-}
-
-.linhait{
-    display: flex;
-    justify-content: space-between;
-}
-
-.ajustemens{
-    align-items: left;
-    text-align: left;
-    justify-content: left;
-    padding: 50px 0px 0px 0px;
-}
-
-.botao{
+    margin-top: 0;
+  }
+  
+  .product-details p {
+    font-size: 16px;
     margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details form {
     display: flex;
-    justify-content: center;
-}
-.botao button{
-    height: 50px;
-    width: 100px;
-    background-color: transparent;
-    border: 2px solid gray;
-}
-.icons img{
-    height: 80px;
-    width: 80px;
-}
-
-.icons{
-    padding-left: 500px;
-}
-
-.contatocontainer img{
-    padding: 40px 0px 0px 30px;
-}
+    align-items: center;
+  }
+  
+  .product-details label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .product-details input {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .product-details button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .product-details button:hover {
+    background-color: #0077A3;
+  }
+  

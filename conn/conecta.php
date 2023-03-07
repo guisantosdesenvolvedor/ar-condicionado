@@ -1,6 +1,6 @@
 <?php 
 $host = "localhost";
-$database = "arcondicionado";
+$database = "db_produtos";
 $user = "root";
 $pass = "";
 $charset = "utf8";
@@ -14,3 +14,4 @@ try {
 } catch (\Throwable $th) {
     echo "Atenção Erro: ".$th;
 }
+?>

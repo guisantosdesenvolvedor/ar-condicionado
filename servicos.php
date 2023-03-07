@@ -15,7 +15,7 @@
     </div>
     <div class="img_linha"><div>
     </div>
-       <div class="imagem_servicos_linha">
+       <div class="area-servico-rows">
             <ul>
                 <li>
                   <img class="" src="img/linha1.png" alt="" style="padding: 0px 40px 0px 0px;" width="350px" height="50px">
@@ -23,8 +23,8 @@
             </ul>
        </div>
     </div>
-    <div class="imagem_servicos_bloco">
-        <div class="imagem_servicos_linha">
+    <div class="area-servico1">
+        <div class="area-servico-rows">
             <ul>
                 <li>
                     <a href=""><img src="img/ar2.webp" alt=""></a>
@@ -32,61 +32,62 @@
             </ul>
         </div>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere, unde asperiores, cupiditate libero saepe temporibus .</p>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <ul>
             <li>
                 <a href=""><img src="img/ar3.webp" alt=""></a>
             </li>
         </ul>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere, unde asperiores, cupiditate libero saepe temporibus .</p>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <ul>
             <li>
                 <a href=""><img src="img/ar4.png" alt=""></a>
             </li>
         </ul>
     </div>
-        <div class="imagem_servicos_linha">
+        <div class="area-servico-rows">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laudantium ipsam adipisci odit sit quo quos libero sunt illo iusto provident blanditiis, facere, nostrum tempore officiis? Velit commodi sunt tenetur.</p>
         </div>
-    <div class="imagem_servicos_bloco">
-        <div class="imagem_servicos_linha">
+    <div class="area-servico1">
+        <div class="area-servico-rows">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laudantium ipsam adipisci odit sit quo quos libero sunt illo iusto provident blanditiis, facere, nostrum tempore officiis? Velit commodi sunt tenetur.</p>
         </div>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <ul>
             <li>
                 <a href=""><img src="img/ar5.webp" alt=""></a>
             </li>
         </ul>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere, unde asperiores, cupiditate libero saepe temporibus .</p>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <ul>
             <li>
                 <a href=""><img src="img/ar6.webp" alt=""></a>
             </li>
         </ul>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facere, unde asperiores, cupiditate libero saepe temporibus .</p>
     </div>
-    <div class="imagem_servicos_linha">
+    <div class="area-servico-rows">
         <ul>
             <li>
                 <a href=""><img src="img/ar4.png" alt=""></a>
             </li>
         </ul>
     </div>
+
 </div>
 
 </body>

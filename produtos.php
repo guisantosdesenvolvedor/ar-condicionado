@@ -48,13 +48,13 @@ include 'conn/conecta.php';
              <a href="detalhes.php?id=1"><img src="img/arcondicionado1.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href="detalhes.php?id=2"><img src="img/arcondicionado2.jpg" alt=""></a>
+             <a href="detalhes.php?id=2"><img src="img/arcondicionado2.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
              <a href="detalhes.php?id=3"><img src="img/arcondicionado3.webp" alt=""></a>
             </div>
             <div class="ajuste_img"> 
-             <a href="detalhes.php?id=4"><img src="img/arcondicionado4.jpg" alt=""></a>
+             <a href="detalhes.php?id=4"><img src="img/arcondicionado4.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
              <a href="detalhes.php?id=5"><img src="img/arcondicionado5.webp" alt=""></a>
@@ -63,19 +63,19 @@ include 'conn/conecta.php';
 
         <div class="linha w100" ng-show="inverter">
             <div class="ajuste_img">
-             <a href="detalhes.php?id=6"><img src="img/arcondicionadoinverter1.webp" alt=""></a>
+             <a href="detalhes.php?id=6"><img src="img/arp1.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href="detalhes.php?id=7"><img src="img/arcondicionadoinverter2.avif" alt=""></a>
+             <a href="detalhes.php?id=7"><img src="img/arp2.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href="detalhes.php?id=8"><img src="img/arcondicionadoinverter3.webp" alt=""></a>
+             <a href="detalhes.php?id=8"><img src="img/arpi3.webp" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href="detalhes.php?id=9"><img src="img/arcondicionadoinverter4.webp" alt=""></a>
+             <a href="detalhes.php?id=9"><img src="img/arpi4.jpg" alt=""></a>
             </div>
             <div class="ajuste_img">
-             <a href="detalhes.php?id=10"><img src="img/arcondicionadoinverter5.webp" alt=""></a>
+             <a href="detalhes.php?id=10"><img src="img/arpi5.webp" alt=""></a>
             </div>
         </div>
 

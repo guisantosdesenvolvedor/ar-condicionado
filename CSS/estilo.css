@@ -104,7 +104,7 @@ a{
     background: rgb(209, 209, 208);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 18vh 10vh 10vh;
+    grid-template-rows: 25vh 25vh 18vh;
 justify-content: space-around;
 }
 
@@ -116,6 +116,8 @@ justify-content: space-around;
     padding-bottom: 180px;
 }
 
+#empresa div{
+}
 .desc{
     padding:70px;
     justify-content: space-around;
@@ -127,8 +129,8 @@ justify-content: space-around;
 
 .area_servicos{
     display: grid;
-    grid-template-columns: 1fr 4fr 4fr 4fr 4fr 4fr 4fr 1fr ;
-    grid-template-rows: 8vh 15vh 25vh 25vh; 
+    grid-template-columns:1fr 4fr 4fr 4fr 4fr 4fr 4fr 1fr ;
+    grid-template-rows: 8vh 10vh 25vh 25vh; 
 }
 
 .paragrafo{
@@ -148,7 +150,7 @@ justify-content: space-around;
     margin-bottom: 15px;    
 }
 
-.imagem_servicos_bloco{
+.area-servico1{
     grid-column-start: 2;
     grid-column-end: 3;
     position: relative;
@@ -156,35 +158,35 @@ justify-content: space-around;
     flex-flow: row nowrap;
 }
 
-.imagem_servicos_bloco a{
+.area-servico1 a{
     display: flex;
     justify-items: center;
 }
 
-.imagem_servicos_bloco p{
+.area-servico1 p{
     font-size: 15px;
     text-align: center;
 }
 
-.imagem_servicos_linha{
+.area-servico-rows{
     position: relative;
     display: flex;
     flex-flow: row nowrap;
 }
 
 
-.imagem_servicos_linha a{
+.area-servico-rows a{
     display: flex;
 }
 
-.imagem_servicos_linha p{
+.area-servico-rows p{
     padding: 100px 0px 0px 0px;
     font-size: 15px;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-.imagem_servicos_linha a img{
+.area-servico-rows a img{
     height: 100%;
     width: 100%;
     border-radius: 30%;
@@ -417,29 +419,18 @@ img{
     font-size: 20pt;
 }
 
-.btn-voltar{
-    color: black;
-    cursor: url('../images/cursor2.cur'), pointer;
-}
-
 #container-main{
     background-color: white;
     border-radius: 25px;
     margin: 15px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 55vh;
 }
 
 #container-main img{
-    width: 50%;
+    width: 75%;
     border-radius: 20px;
-}
-
-#container-main div{
-    margin: 25px;
-    font-size: 16pt;
-    display: flex;
-    flex-direction: column;
 }
 
 #preco {
@@ -450,4 +441,10 @@ img{
     display: flex;
     font-size: 14pt;
 }
+.outrosprodutos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
 

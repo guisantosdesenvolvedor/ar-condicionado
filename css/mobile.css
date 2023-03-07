@@ -18,3 +18,10 @@
     
     
 }
+
+.area-servico-rows{
+    display: block;
+    flex-direction: column; /*Usado pra deixar o menu em coluna*/
+
+
+}

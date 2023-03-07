@@ -1,7 +1,7 @@
 <?php 
     include 'conn/conecta.php';
     $id = $_GET['id'];
-    $lista = $conn->query("select * from vw_produtos where id like '%$id%';");
+    $lista = $conn->query("select * from produtos where id like '%$id%';");
     $row =  $lista->fetch_assoc();
     $num_linhas = $lista->num_rows;
 ?>
@@ -37,40 +37,36 @@
         </div>
 </nav>  
   <div id="container-detalhes">
-        <!-- Top para voltar -->
         <h2>
-            <a href="javascript:window.history.go(-1)" role="button" >
-                <span class="btn-voltar">
-                    <i class="fa-solid fa-circle-chevron-left"></i>
-                </span>
-            </a>&nbsp;
             <?php echo $row['nome']; ?>
         </h2>             
         <div id="container-main">
             <img src="img/<?php echo $row['imagem']; ?>" alt="">
             <div>
                 <p>
-                    <h2><?php echo $row['descricao']; ?></h2> <br> <br>
+                    <h2><?php echo $row['descricao']; ?></h2> 
+                    <br> <br>
                     <?php echo $row['resumo']; ?> <br><br>  
                 </p>
-                <?php
-                    // Define o valor do desconto como 10%
-                        $desconto = 0.1;
-                    // Obtém o custo total do produto
-                        $custo_total = $row['custo_total'];
-                    // Calcula o valor com desconto
-                        $preco_com_desconto = $custo_total * (1 - $desconto);
-                ?>
-                <p id="preco">
-                    <h2>
-                        VALOR: R$
-                        <?php echo number_format($preco_com_desconto, 3, '.', ','); // formata para exibir com duas casas decimais e separador de milhar com ponto ?>
-                        <span class="preco-original">
-                            <strike>R$<?php echo number_format($custo_total, 3, '.', ','); ?></strike>
-                        </span>
-                    </h2>
-                </p>
+                <div class="button-valor">
+                    <?php
+                            $desc = 0.2;
+                            $c_total = $row['custo_total'];
+                            $preco_com_desconto = $c_total * (1 - $desc);
+                    ?>
+                    <p id="preco">
+                        <h2>
+                            VALOR: R$
+                            <?php echo number_format($preco_com_desconto, 3, '.', ',');?>
+                            <span class="preco-original">
+                                <strike>R$<?php echo number_format($c_total, 3, '.', ','); ?></strike>
+                            </span>
+                        </h2>
+                    </p>
+                </div>
+                </div>
             </div>
         </div>
+
 </body>
 </html>

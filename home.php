@@ -9,22 +9,20 @@
     
 </head>
 <body>
-<nav class="navcentral" id="home">
-    <div class="ajt">
-        <div class="imagem1">
-            <ul>
-                <li>
-                    <a href=""><img src="img/energia_solar.png" alt=""></a>
-                </li>
-            </ul>
+<nav class="navbar-home">
+    <div class="container-home">
+        <div class="img-home">
+            <img src="img/energia_solar.png" alt="">
         </div>
-        <div class="imagem1">
-            <div class="texto_meio">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                <img src="img/linhapequena.png" alt="" class="linhapq">
-            </div>
+    <div class="pts">
+        <div class="txt-home">
+            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias facere ipsum tempore soluta consectetur consequatur.</h3>
+        </div>
+        <div class="txt-img-home">
+            <img src="img/linhapequena.png" alt="">
         </div>
     </div>
+</div>
 </nav>
 </body>
 </html>

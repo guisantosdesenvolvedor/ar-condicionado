@@ -225,71 +225,7 @@ a{
 
 /*################### COMEÇO AREA DE SERVIÇOS #######################*/
 
-/* .area_servicos{
-    display: grid;
-    grid-template-columns:1fr 4fr 4fr 4fr 4fr 4fr 4fr 1fr ;
-    grid-template-rows: 8vh 10vh 25vh 25vh; 
-}
 
-.paragrafo{
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    text-align: center;
-}
-
-.img_linha{
-    justify-self: center;
-    grid-column-start: 1;
-    grid-column-end: 9;
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 15px;    
-}
-
-.area-servico1{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.area-servico1 a{
-    display: flex;
-    justify-items: center;
-}
-
-.area-servico1 p{
-    font-size: 15px;
-    text-align: center;
-}
-
-.area-servico-rows{
-    position: relative;
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-
-.area-servico-rows a{
-    display: flex;
-}
-
-.area-servico-rows p{
-    padding: 100px 0px 0px 0px;
-    font-size: 15px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.area-servico-rows a img{
-    height: 100%;
-    width: 100%;
-    border-radius: 30%;
-
-} */
 
 .cabecalho-servicos{
     align-items: center;
@@ -299,54 +235,66 @@ a{
 }
 
 .container-servicos{
-    margin: 20px;
+    margin: 40px;
     align-items: center;
     justify-content: space-around;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .container-servicos div{
-    padding: 20px;
-}
-.img-servicos img{
-    border-radius: 20px;
-    width: 300px;
-    height: 200px;
+    padding: 0px;
 }
 
-.txt-servicos p{
-    display: block;
+.container-servicos .txt-servicos p{
     justify-content: space-around;
     text-align: center;
     align-items: center;
 }
 
-.container-servicos div{
-    padding: 20px;
-}
-.img-servicos img{
+.container-servicos .img-servicos img{
     border-radius: 20px;
     width: 300px;
     height: 200px;
 }
 
-.txt-servicos p{
-    display: block;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
+
+
+@media (max-width: 1600px){
+    .container-servicos{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;    
+    }
+  
 }
 
-.trocadelinha-servicos{  
-      align-items: center;
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+@media (max-width: 1200px){
+    .container-servicos{
+        grid-template-columns: 1fr  1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+  
 }
 
-@media (max-width: 1200px)
+@media (max-width: 800px){
+    .container-servicos{
+        grid-template-columns: 1fr  1fr ;
+        grid-template-rows: 1fr;
+    }
+  
+}
+
+@media (max-width: 600px){
+    .container-servicos{
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+    }
+    .container-servicos .txt-servicos p{
+        border: 1px solid black;
+    }
+    
+}
+
 
 /*################### FIM DO SERVIÇOS #######################*/
 

@@ -114,27 +114,28 @@
         <div class="txt-servicos">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo magnam debitis!</p>
         </div>
+    </div>
         <div class="trocadelinha-servicos">
-            <div class="img-servicos">
-                <img src="img/ar2.webp" alt="">
-            </div>
-            <div class="txt-servicos">
+             <div class="txt-servicos">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis ipsa possimus accusantium.</p>
             </div>
             <div class="img-servicos">
-            <img src="img/ar3.webp" alt="">
+                <img src="img/ar2.webp" alt="">
             </div>
             <div class="txt-servicos">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt accusamus delectus rem.</p>
             </div>
             <div class="img-servicos">
-            <img src="img/ar4.png" alt="">
+             <img src="img/ar3.webp" alt="">
             </div>
             <div class="txt-servicos">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis illo magnam debitis!</p>
             </div>
+            <div class="img-servicos">
+            <img src="img/ar4.png" alt="">
+            </div>
+            
         </div>
-    </div>
 </nav>
 </body>
 </html>

@@ -7,25 +7,26 @@
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
 </head>
 <body>
-<nav class="fundo_conteudo" id="empresa">
-    <div class="desc 5">
+<nav class="navbar-visao">
+    <div class="container-visao">
+        <div class="visao">
             <h1>VISÃO</h1>
-            <div class="textos_desc">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus totam, eaque aliquam perferendis suscipit alias aut inventore praesentium voluptate a numquam facilis rem id eos quibusdam reprehenderit nemo. Voluptatibus, fugiat.</p>
+            <div class="text-visao">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eos corrupti quidem suscipit ducimus tempora quos atque distinctio odio. Dicta repellat rem similique, soluta enim libero rerum mollitia aut iusto!</p>
             </div>
-    </div>
-    <div class="desc 5">
-            <h1> MISSÃO </h1>
-        <div class="textos_desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga maxime facere totam id, alias libero aperiam, delectus cupiditate temporibus molestias aliquid nobis quasi harum in? Placeat quae ducimus ipsam.</p>
-            <br><br><br>
         </div>
-    </div>
-    <div class="desc 5">
-        <h1> VALORES</h1>
-        <div class="textos_desc">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatum voluptates molestiae quas odio optio sit rerum? Consectetur iste enim quis, id provident ratione ea, necessitatibus quo laboriosam animi dolorum?</p>
-    </div>
+        <div class="missao">
+            <h1>MISSÃO</h1>
+            <div class="text-visao">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eos corrupti quidem suscipit ducimus tempora quos atque distinctio odio. Dicta repellat rem similique, soluta enim libero rerum mollitia aut iusto!</p>
+            </div>
+        </div>
+        <div class="valores">
+            <h1>VALORES</h1>
+            <div class="text-visao">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eos corrupti quidem suscipit ducimus tempora quos atque distinctio odio. Dicta repellat rem similique, soluta enim libero rerum mollitia aut iusto!</p>
+            </div>
+        </div>
     </div>
 </nav>
 </body>

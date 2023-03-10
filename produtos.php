@@ -12,7 +12,7 @@ include 'conn/conecta.php';
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
 </head>
 <body  ng-app="meuApp" ng-controller="meuController">
-<nav id="produtos">
+<!-- <nav id="produtos">
         <div >
             <div class="alinha_meio">
                 <h1>Produtos</h1>
@@ -114,6 +114,30 @@ include 'conn/conecta.php';
             <div class="ajuste_img">
                <a href="detalhes.php?id=20"> <img src="img/pl5.png" alt=""></a>
             </div>
+        </div>
+    </div>
+</nav> -->
+
+<nav class="navbar-produtos">
+    <div class="cabecalho-produtos">
+        <h1>Produtos</h1>
+        <img src="img/linhapequena.png" alt="">
+    </div>
+    <div class="container-produtos">
+    <div class="img-produto">
+            kkkk
+        </div>
+        <div class="img-produto">
+            kkkk
+        </div>
+        <div class="img-produto">
+            kkkk
+        </div>
+        <div class="img-produto">
+            kkkk
+        </div>
+        <div class="img-produto">
+            kkkk
         </div>
     </div>
 </nav>

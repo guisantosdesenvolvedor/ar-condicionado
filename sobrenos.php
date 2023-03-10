@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<nav class="fundo">
+<!-- <nav class="fundo">
     <div class="container_texto">
 
         <div class="sobre_nos_fundocinza">
@@ -26,6 +26,31 @@
     </div>
     <div class="logogrande" id="portifolio">
         <h1>AR CONDICIONADO</h1>
+    </div>
+</nav> -->
+
+<nav class="navbar-sobrenos">
+    <div class="container-sobrenos">
+        <div class="texto-sobrenos">
+            <div class="titulo-sobrenos">
+                <h1>Sobre nós</h1>
+                <img src="img/linhapequena.png" alt="">
+            </div>
+            <div class="txt-sobrenos">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam voluptatum nam asperiores, magnam dolore 
+                eius tempora voluptates ut voluptate dolores accusamus quidem accusantium officiis iure ea recusandae unde 
+                repudiandae suscipit aliquam ducimus consequatur autem cupiditate. Impedit, rerum. Ad odio tempora veniam
+                 fugit, illum eveniet dolore deleniti magnam consequatur, excepturi alias molestias culpa. Placeat, eius 
+                 sapiente. Modi iure, ullam similique asperiores illum dicta aut, sunt laudantium error autem aliquam esse 
+                 illo quos suscipit quas obcaecati assumenda. Atque ullam hic fugit commodi? Aliquid voluptates animi officia 
+                 itaque quae magnam quidem, fuga, tempora ut ipsum beatae esse ipsa eligendi! Facere, sint ullam!
+            </p>
+            </div>
+        </div>
+        <div class="logo-sobrenos">
+            <h1>AR CONDICIONADO</h1>
+        </div>
     </div>
 </nav>
 </body>

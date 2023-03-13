@@ -4,46 +4,46 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body>
-<nav class="contato" style="    background: rgb(212, 212, 212);">
-    <div class="contatocontainer">
-        <img src="img/ar2.webp" alt="" class="ajuste_ig">
-    </div>
-    <div class="contatoaling" id="contato">
-    <br><br><br>
-        <h1>CONTATO</h1>
-        <img src="img/linhapequena.png" alt="">
-        <div class="ajustecontato">
-            <h5>ENDEREÇO:</h5>
-            <h5>ENTRE EM CONTATO:</h5>
+<nav class="navbar-contato">
+    <div class="container-contato">
+        <div class="imagem-contato">
+            <img src="img/ar3.webp" alt="" style="width: 100%;height: 100%;">
         </div>
-        <div class="ajustecontatos1">
-            <h4>ENVIE-NOS UMA MENSAGEM</h4>
-        </div>
-        <div class="linhait">
-            <label for="nome" class="inputfield">
-                NOME:
-            <input type="nome" name="nome" id="nome">
-        </label>
-        <label for="email" class="inputfield">
-            E-MAIL:
-            <input type="email" name="email" id="email">
-        </label>
-        </div>
-        <div class="ajustemens">
-            <label for="mensagem" class="inputfield">
-                MENSAGEM:
+        <div class="txt-contato">
+            <div class="cabecalho-contato">
+                <h1>Produtos</h1>
+                <img src="img/linhapequena.png" alt="">
+            </div>
+            <div class="conteudo-contato">
+                <div class="conteudo">
+                    <h2>ENDEREÇO:</h2>
+                </div>
+                <div class="conteudo">
+                    <h2>ENTRE EM CONTATO:</h2>
+                </div>
+            </div>
+            <div class="mensagem">
+             <h2>ENVIE NOS UMA MENSAGEM:</h2>
+            </div>
+            <div class="conteudo-contato">
+                <div class="nome-contato">
+                    <label for="nome" class="inputfield">
+                        <h3>NOME:</h3>
+                     <input type="nome" name="nome" id="nome">
+                </div>
+                <div class="email-contato">
+                <label for="email" class="inputfield">
+                        <h3>EMAIL:</h3>
+                     <input type="email" name="email" id="email">
+                </div>
+            </div>
+            <div class="mensagem1">
+                <label for="mensagem" class="inputfield1">
+                    <h3>MENSAGEM:</h3>
                 <input type="mensagem" name="mensagem" id="mensagem">
-            </label>
-        </div>
-        <div class="botao">
-            <button> <h3>Enviar</h3></button>
-        </div>
-        <div class="icons">
-            <img src="img/icone_fb.svg" alt="">
-            <img src="img/icone_insta.svg" alt="">
+            </div>
         </div>
     </div>
-    
 </nav>
 </body>
 </html>

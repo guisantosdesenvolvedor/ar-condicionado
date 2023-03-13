@@ -450,45 +450,48 @@ a{
 }
 /*################### FIM DOS PRODUTOS #######################*/
 
+/*################### COMECO DOS PRODUTOS #######################*/
 
-.contato{
+
+.navbar-contato{
+    background-color: rgb(212, 212, 212);    
+}
+.container-contato{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 
 
-.ajuste_img{
-    max-width: 100%; 
-}
-
-.ajuste_ig{
-    max-width: 100%;
-    padding-left: 100px;
-    width: 800px;
-    height: 500px;
-}
-
-
-.ajustecontato{
-    display: flex;
-    justify-content: space-between;
-}
-
-.ajustecontato h5{
-    font-size: 1.5rem;
-}
-
-.contatoaling{
+.cabecalho-contato{
+    align-items: center;
     text-align: center;
-    margin-top: 15px;
-    padding-right: 80px;
+    justify-content: center;
+    font-size: 1.5em;
 }
 
-.ajustecontatos1 h4{
-    font-size: 1.5rem;
-    justify-content: left;
-    text-align: left;
+.conteudo-contato{
+    margin:20px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh;
 }
+
+.conteudo-contato  div{
+    padding-left: 120px;
+}
+
+.mensagem{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.conteudo-mensagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .inputfield input{
     border: none;
@@ -501,116 +504,50 @@ a{
     outline: none;
 }
 
-.linhait{
-    display: flex;
-    justify-content: space-between;
+.inputfield1 input{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0px 150px;
+    border-bottom: 1px solid black;
+}
+.inputfield1 input:focus{
+    outline: none;
+}
+.imagem-contato{
+    width: 100%;
+    height: 100%;
 }
 
-.ajustemens{
-    align-items: left;
-    text-align: left;
-    justify-content: left;
-    padding: 50px 0px 0px 0px;
-}
-
-.botao{
-    margin-top: 20px;
-    display: flex;
+.mensagem1{
+    align-items: center;
+    text-align: center;
     justify-content: center;
 }
-.botao button{
-    height: 50px;
-    width: 100px;
-    background-color: transparent;
-    border: 2px solid gray;
-}
-.icons img{
-    height: 80px;
-    width: 80px;
-}
 
-.icons{
-    padding-left: 500px;
-}
-
-.contatocontainer img{
-    padding: 0%;
-    height: 100%;
-    width: 900px;
-}
-
-img{
-    cursor: url(../img/ar-condicionado.cur), pointer;
-}
-
-
-.fundoinfo{
-    margin-left: 10px;
-    margin-right:1%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 55vh;
-    justify-content: space-between;
-}
-
-.imginfo {
+@media (max-width: 1700px){
+    .conteudo-contato{
+        grid-template-columns:  1fr;
+    }   
+    .inputfield1 input{
+        border: none;
+        background-color: transparent;
+        font-size: 18px;
+        padding: 0px 130px;
+        border-bottom: 1px solid black;
+    }
     
-    position: relative;
-    display: flex;
+    .mensagem1{
+        margin-left: 160px;
+        align-items: left;
+        text-align: left;
+        justify-content: left;
+    }
 }
 
-.imginfo a{
-    display: flex;
-
-    padding: 40px 0px 0px 30px;
+@media (max-width: 1100px){
+    .container-contato{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
-
-.coll{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-}
-
-.rowsl{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-.nm{
-    display: flex;
-    justify-content: space-around;
-}
-
-#container-detalhes{
-    margin: 25px;
-    font-size: 20pt;
-}
-
-#container-main{
-    background-color: white;
-    border-radius: 25px;
-    margin: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 55vh;
-}
-
-#container-main img{
-    width: 75%;
-    border-radius: 20px;
-}
-
-#preco {
-    margin-top: 70px;
-}
-
-.preco-original {
-    display: flex;
-    font-size: 14pt;
-}
-.outrosprodutos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: space-around;
-}
-
-

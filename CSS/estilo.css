@@ -551,3 +551,12 @@ a{
         grid-template-columns: 1fr;
     }
 }
+
+/*################### FIM DOS CONTATO #######################*/
+
+/*################### COMECO DOS DETALHES #######################*/
+
+.container-detalhes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

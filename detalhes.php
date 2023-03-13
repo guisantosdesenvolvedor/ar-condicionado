@@ -34,7 +34,7 @@
                 <li><a href="index.php#contato">CONTATO</a></li>
             </ul>
         </div>
-</nav>  
+<!-- </nav>  
   <div id="container-detalhes">
         <h2>
             <?php echo $row['nome']; ?>
@@ -65,7 +65,13 @@
                 </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
+<nav class="navbar-detalhes">
+    <div class="container-detalhes">
+        <div>....</div>
+        <div>....</div>
+    </div>
+</nav>
 </body>
 </html>

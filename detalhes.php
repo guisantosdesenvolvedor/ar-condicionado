@@ -68,9 +68,31 @@
         </div> -->
 
 <nav class="navbar-detalhes">
+    <div class="nome-detalhes">
+        <h1><?php echo $row['nome']?></h1>  
+    </div>
     <div class="container-detalhes">
-        <div>....</div>
-        <div>....</div>
+        <div class="imagem-detalhes">
+            <img src="img/<?php echo $row['imagem']; ?>" alt="">
+        </div>
+        <div class="conteudo-detalhes">
+            <div>                  
+                <h1><?php echo $row['descricao']; ?></h1> 
+            </div>
+            <div><h2><?php echo $row['resumo']; ?></h2></div>
+            <div>  <?php
+                            $desc = 0.2;
+                            $c_total = $row['custo_total'];
+                            $preco_com_desconto = $c_total * (1 - $desc);
+                    ?>
+                     <h2>
+                            VALOR: R$
+                            <?php echo number_format($preco_com_desconto, 3, '.', ',');?>
+                            <span class="preco-original">
+                                <strike>R$<?php echo number_format($c_total, 3, '.', ','); ?></strike>
+                            </span>
+                        </h2></div>
+        </div>
     </div>
 </nav>
 </body>

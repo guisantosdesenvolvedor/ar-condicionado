@@ -559,4 +559,25 @@ a{
 .container-detalhes{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 50px;
+    background-color: rgb(223, 222, 222);
 }
+
+.imagem-detalhes{
+    margin: 20px;
+}
+
+.imagem-detalhes
+
+.nome-detalhes{
+    font-size: 1.8em;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.conteudo-detalhes{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 20vh 20vh;
+}
+

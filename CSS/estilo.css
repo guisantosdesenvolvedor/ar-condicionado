@@ -561,6 +561,7 @@ a{
     grid-template-columns: 1fr 1fr;
     margin: 50px;
     background-color: rgb(223, 222, 222);
+    border-radius: 5%;
 }
 
 .imagem-detalhes{
@@ -570,9 +571,13 @@ a{
 .imagem-detalhes
 
 .nome-detalhes{
-    font-size: 1.8em;
     padding-top: 40px;
     padding-left: 20px;
+}
+
+.nome-detalhes h1{
+    padding-left: 40px;
+    font-size: 1.9em;
 }
 
 .conteudo-detalhes{

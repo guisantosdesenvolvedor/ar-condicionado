@@ -87,7 +87,7 @@ include 'conn/conecta.php';
                 </div>
             </div>
 
-            <div class="imagens-linha-produtos w100" ng-show="energiasolar">
+            <div class="imagens-linha-produtos w100" ng-show="energiasolar" id="energiasolar">
                 <div class="imagem-produtos">
                 <a href="detalhes.php?id=16"><img src="img/pl1.webp" alt=""></a>  
                 </div>
@@ -101,7 +101,8 @@ include 'conn/conecta.php';
                 <a href="detalhes.php?id=19"> <img src="img/pl4.jpg" alt=""></a>
                 </div>
                 <div class="imagem-produtos">
-                <a href="detalhes.php?id=20"> <img src="img/pl5.png" alt=""></a>
+                <a href="detalhes.php?id=20"> <img src="img/pl5.png" alt="">
+                </a>
                 </div>
             </div>
         </div>

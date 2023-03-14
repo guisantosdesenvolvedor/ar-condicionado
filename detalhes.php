@@ -34,39 +34,6 @@
                 <li><a href="index.php#contato">CONTATO</a></li>
             </ul>
         </div>
-<!-- </nav>  
-  <div id="container-detalhes">
-        <h2>
-            <?php echo $row['nome']; ?>
-        </h2>             
-        <div id="container-main">
-            <img src="img/<?php echo $row['imagem']; ?>" alt="">
-            <div>
-                <p>
-                    <h2><?php echo $row['descricao']; ?></h2> 
-                    <br> <br>
-                    <?php echo $row['resumo']; ?> <br><br>  
-                </p>
-                <div class="button-valor">
-                    <?php
-                            $desc = 0.2;
-                            $c_total = $row['custo_total'];
-                            $preco_com_desconto = $c_total * (1 - $desc);
-                    ?>
-                    <p id="preco">
-                        <h2>
-                            VALOR: R$
-                            <?php echo number_format($preco_com_desconto, 3, '.', ',');?>
-                            <span class="preco-original">
-                                <strike>R$<?php echo number_format($c_total, 3, '.', ','); ?></strike>
-                            </span>
-                        </h2>
-                    </p>
-                </div>
-                </div>
-            </div>
-        </div> -->
-
 <nav class="navbar-detalhes">
     <div class="nome-detalhes">
         <h1><?php echo $row['nome']?></h1>  
@@ -86,12 +53,16 @@
                             $preco_com_desconto = $c_total * (1 - $desc);
                     ?>
                      <h2>
-                            VALOR: R$
+                            VALOR VARIA ENTRE: R$
                             <?php echo number_format($preco_com_desconto, 3, '.', ',');?>
                             <span class="preco-original">
-                                <strike>R$<?php echo number_format($c_total, 3, '.', ','); ?></strike>
+                                ATÉ : 
+                               R$ <?php echo number_format($c_total, 3, '.', ','); ?>
                             </span>
                         </h2></div>
+            <div>
+                <a href="index.php#produtos">CLIQUE AQUI PARA VISUALIZAR MAIS PRODUTOS</a>
+            </div>
         </div>
     </div>
 </nav>
